@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 50px 10px 20px 10px;
+    color: hsl(234, 12%, 34%);
+    height: 100vh;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-box {
+    display: block;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 310px;
+}
+
+.header h1 {
+    font-size: 25px;
+}
+
+.header1 {
+    font-weight: 200;
+}
+
+.header2 {
+    margin-bottom: 15px;
+}
+
+.header-p {
+    margin-bottom: 50px;
+}
+
+.card {
+    height: 225px;
+    width: 310px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgba(145, 138, 138, 0.521);
+    padding: 25px;
+    margin-bottom: 20px; 
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 30px;
+}
+
+.card svg {
+    float: right;
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a {
+    text-decoration: none;
+    color:hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color:hsl(0, 78%, 62%)
+}
+
+@media only screen and (min-width: 1200px) {
+    .header {
+        width: 500px;
+    }
+
+    .header h1 {
+        font-size: 35px;
+    }
+
+    .card {
+        width: 350px;
+    }
+    
+    .card-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .supervisor {
+        grid-row: 1/3;
+    }
+
+    .team {
+        margin: 0;
+    }
+
+    .calculator {
+        grid-row-start: 1;
+        grid-column-start: 3;
+        grid-row: 1/3;
+    }
+
+}
