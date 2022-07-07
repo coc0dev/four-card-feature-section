@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fourcardfeaturesection-DF9KkRdlUf)
+- Live Site URL: [Netlify](https://rococo-daffodil-cc1a0b.netlify.app/)
 
 ## My process
 
